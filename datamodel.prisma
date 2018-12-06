@@ -1,0 +1,9 @@
+type Item {
+  id: ID! @unique
+  subItems: [SubItem!]!
+}
+
+type SubItem {
+  id: ID! @unique
+  name: String
+}
